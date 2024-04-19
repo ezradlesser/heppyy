@@ -6,7 +6,7 @@ headers = [
 ]
 
 packs = ['pythia8']
-libs = ['pythia8']
+libs = ['pythia8lhapdf6']
 
 from yasp.cppyyhelper import YaspCppyyHelper
 YaspCppyyHelper().load(packs, libs, headers)
